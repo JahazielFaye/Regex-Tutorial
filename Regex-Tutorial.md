@@ -44,3 +44,19 @@ Character classes are used to match any character within a specified set. In our
 
 Groups are used to capture a specific portion of a matched pattern. In our regex, we use four groups to capture the country code (if present), area code (if present), prefix, and line number separately.
 
+### Alternation
+
+Alternation is used to match one of several possible patterns. In our regex, we use `|` to match either a hyphen or a space between the area code and prefix.
+
+### Escaping Characters
+
+Some characters have special meanings in regex, and need to be escaped with a backslash in order to match them literally. In our regex, we use `\(` and `\)` to match parentheses.
+
+## Author
+
+This tutorial was written by
+
+Jahaziel Faye Ponsaran
+
+Full Stack Developer/Software Engineer
+[GitHub Profile](https://github.com/JahazielFaye)
